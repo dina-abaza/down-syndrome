@@ -123,7 +123,7 @@ export default function ManageArticles() {
   };
 
   return (
-    <div className="rounded-3xl w-full shadow-lg p-4 sm:p-6">
+    <div className="rounded-3xl w-full shadow-lg p-4 sm:p-6 ">
       {/* 📝 فورم إضافة / تعديل */}
       <div
         className="flex flex-col sm:flex-row items-center justify-center mb-6"
