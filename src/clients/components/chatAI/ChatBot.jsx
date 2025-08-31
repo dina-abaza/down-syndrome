@@ -150,7 +150,7 @@ const url = import.meta.env.VITE_URL_chatAi;
                         style={{ minHeight: 380 }}
                     >
                         <button
-                            className="absolute top-2 left-2 text-gray-400 hover:text-red-500 text-xl"
+                            className="absolute top-2 left-2 text-gray-400 hover:text-red-500 text-3xl"
                             onClick={() => setShowChat(false)}
                             aria-label="إغلاق الشات"
                         >
@@ -166,7 +166,7 @@ const url = import.meta.env.VITE_URL_chatAi;
                                 loop
                                 autoplay
                             ></lottie-player>
-                            <span className="font-bold text-blue-700 text-lg ml-2">المساعد الذكي</span>
+                            <span className="font-bold text-purple-700 text-lg ml-2">المساعد الذكي</span>
                         </div>
 
                         <div className="flex-1 overflow-y-auto mb-2 pr-1" style={{ maxHeight: 620 }}>
@@ -181,7 +181,7 @@ const url = import.meta.env.VITE_URL_chatAi;
                                     <div
                                         className={`px-3 py-2 rounded-xl max-w-[100%] text-sm ${msg.from === "user"
                                             ? "bg-blue-100 text-blue-900"
-                                            : "bg-blue-600 text-white"
+                                            : "bg-pink-500 text-white"
                                             }`}
                                     >
                                         {msg.from === "user" ? (
@@ -221,7 +221,7 @@ const url = import.meta.env.VITE_URL_chatAi;
                         <div className="flex gap-2 mt-2 items-center flex-wrap">
 
                             <input
-                                className="flex-grow min-w-[150px] border border-blue-300 rounded-lg px-3 py-2 text-base focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                className="flex-grow min-w-[150px]  border-b border-pink-600 rounded-lg px-3 py-2 text-base outline-none"
                                 type="text"
                                 placeholder="اكتب رسالتك..."
                                 value={input}
@@ -230,7 +230,7 @@ const url = import.meta.env.VITE_URL_chatAi;
                                 disabled={loading}
                             />
                             <button
-                                className="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-700 transition disabled:opacity-50 flex-shrink-0"
+                                className=" text-pink-600 px-4 py-2 rounded-full font-bold transition disabled:opacity-50 flex-shrink-0"
                                 onClick={handleSend}
                                 disabled={loading || !input.trim()}
                                 aria-label="إرسال الرسالة"
