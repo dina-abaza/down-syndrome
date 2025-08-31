@@ -29,11 +29,12 @@ import DownSyndromeLife from './clients/pages/downSydromLife';
 import DownSyndromeTypes from './clients/pages/downSyndromTypes';
 import ProtectedRoute from './admin/pages/protectedRoute';
 // import ChatBotWidget from './clients/components/chatAI/ChatBot';
+import ScrollToTop from './clients/hooks/scrollToTop';
 
 function App() {
   return (
     <>
-    <ScrollToTop />
+   <ScrollToTop/>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/home" element={<LayOut />}>
