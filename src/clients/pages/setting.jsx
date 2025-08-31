@@ -3,7 +3,7 @@ import useSurveyStore from "../store/useSurveyStore";
 import { motion } from "framer-motion";
 
 export default function Settings() {
-  const { questions, answers, updateAnswer, resetSurvey } = useSurveyStore();
+  const { questions, answers, updateAnswer } = useSurveyStore();
 
   return (
     <motion.div
@@ -52,14 +52,6 @@ export default function Settings() {
         </div>
       ))}
 
-      <div className="text-center mt-6">
-        <button
-          onClick={resetSurvey}
-          className="px-6 py-3 bg-pink-500 text-white rounded-lg shadow-md hover:bg-pink-600 transition"
-        >
-          إعادة تعيين الاستبيان
-        </button>
-      </div>
     </motion.div>
   );
 }

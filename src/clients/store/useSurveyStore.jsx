@@ -65,12 +65,7 @@ const useSurveyStore = create(persist(
           },
         })),
 
-      resetSurvey: () =>
-        set({
-          currentIndex: 0,
-          answers: {},
-          submitted: false,
-        }),
+  
     }),
     {
       name: "survey-storage",
