@@ -33,7 +33,7 @@ import ProtectedRoute from './admin/pages/protectedRoute';
 function App() {
   return (
     <>
-   
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/home" element={<LayOut />}>
