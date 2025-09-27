@@ -121,17 +121,17 @@ export default function LandingPage() {
             </motion.p>
 
             <motion.ul
-              className="list-disc list-inside space-y-2 text-purple-100"
+              className=" list-inside space-y-2 text-purple-100 list-none"
               variants={{
                 hidden: { opacity: 0, x: 50 },
                 visible: { opacity: 1, x: 0, transition: { duration: 0.6 } },
               }}
             >
-              <motion.li variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }}>توفير برامج تعليمية متكاملة تناسب كل مرحلة عمرية.</motion.li>
-              <motion.li variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }}>تقديم استشارات صحية ونفسية للأهالي لضمان نمو الطفل بشكل صحي وسليم.</motion.li>
-              <motion.li variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }}>تدريب الأسرة على استراتيجيات الدعم اليومي وتعزيز مهارات الطفل.</motion.li>
-              <motion.li variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }}>خلق بيئة محفزة للأطفال تساعدهم على تطوير مهاراتهم الاجتماعية والمعرفية.</motion.li>
-              <motion.li variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }}>توعية المجتمع بأهمية دمج أطفال متلازمة داون ومساندتهم.</motion.li>
+              <motion.li variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }}>توفير برامج تعليمية متكاملة تناسب كل مرحلة عمرية</motion.li>
+              <motion.li variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }}>وتقديم استشارات صحية ونفسية للأهالي لضمان نمو الطفل بشكل صحي وسليم</motion.li>
+              <motion.li variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }}>وتدريب الأسرة على استراتيجيات الدعم اليومي وتعزيز مهارات الطفل</motion.li>
+              <motion.li variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }}>وخلق بيئة محفزة للأطفال تساعدهم على تطوير مهاراتهم الاجتماعية والمعرفية</motion.li>
+              <motion.li variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }}>وتوعية المجتمع بأهمية دمج أطفال متلازمة داون ومساندتهم</motion.li>
             </motion.ul>
 
             <motion.p
